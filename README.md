@@ -6,7 +6,7 @@ This is the code for the [wheatstalk/azure-powershell-core-az](//hub.docker.com/
 ## Running a script
 You may run scripts by mounting the script files as volumes. For example:
 ```
-docker run --rm -it wheatstalk/azure-powershell-core-az:latest -v somepath:/sut -- pwsh /sut/script.ps1
+docker run --rm -it -v somepath:/sut wheatstalk/azure-powershell-core-az:latest -- pwsh /sut/script.ps1
 ```
 
 ## Connect to Azure
