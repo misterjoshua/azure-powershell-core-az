@@ -1,5 +1,7 @@
+<img src="https://img.shields.io/docker/cloud/automated/wheatstalk/azure-powershell-core-az" alt="Automated Build"> <img src="https://img.shields.io/docker/cloud/build/wheatstalk/azure-powershell-core-az" alt="Build status">
+
 # Azure Powershell Core with Az & AKS Binaries
-This is the code for a Docker image built from `azuresdk/azure-powershell-core` which includes working `Az.*` Powershell modules, `kubectl`, and `helm`. This image can be used to test Azure-controlling Powershell scripts, especially those that combine ARM with Azure Kubernetes Service boilerplate. (Hence kubectl and helm.)
+This is the code for the [wheatstalk/azure-powershell-core-az](//hub.docker.com/r/wheatstalk/azure-powershell-core-az) Docker image. This image is built from `azuresdk/azure-powershell-core` but includes working `Az.*` Powershell modules, `kubectl`, and `helm`. This image can be used to test Azure-controlling Powershell scripts, especially those that combine ARM with Azure Kubernetes Service boilerplate. (Hence kubectl and helm.)
 
 ## Running a script
 You may run scripts by mounting the script files as volumes. For example:
